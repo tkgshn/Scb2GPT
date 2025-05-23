@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- 背景円 -->
+  <circle cx="32" cy="32" r="30" fill="#4CAF50" stroke="#45a049" stroke-width="2"/>
+
+  <!-- Scrapbox風のページアイコン -->
+  <rect x="16" y="12" width="20" height="28" rx="2" fill="white" opacity="0.9"/>
+
+  <!-- テキスト行を表現 -->
+  <line x1="19" y1="18" x2="33" y2="18" stroke="#333" stroke-width="1.5"/>
+  <line x1="19" y1="22" x2="31" y2="22" stroke="#333" stroke-width="1.5"/>
+  <line x1="19" y1="26" x2="29" y2="26" stroke="#333" stroke-width="1.5"/>
+
+  <!-- ChatGPT風のチャットバブル -->
+  <circle cx="44" cy="42" r="12" fill="#00A67E"/>
+  <path d="M38 42 Q38 38 42 38 Q46 38 46 42 Q46 46 42 46 L40 48 L38 46 Q38 42 38 42" fill="white"/>
+
+  <!-- ChatGPT内の小さなドット -->
+  <circle cx="40.5" cy="42" r="1.5" fill="#00A67E"/>
+  <circle cx="43.5" cy="42" r="1.5" fill="#00A67E"/>
+  <circle cx="46.5" cy="42" r="1.5" fill="#00A67E"/>
+</svg>

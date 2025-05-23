@@ -1,0 +1,40 @@
+{
+    "name": "scrapbox-chatgpt-dalle-integration",
+    "version": "1.0.0",
+    "description": "Scrapbox上でChatGPTとDALL-Eを使用できるようにするUserScript",
+    "main": "scripts/userscript.js",
+    "scripts": {
+        "lint": "echo 'Linting not configured yet'",
+        "test": "echo 'No tests specified'"
+    },
+    "keywords": [
+        "scrapbox",
+        "chatgpt",
+        "dalle",
+        "userscript",
+        "tampermonkey",
+        "ai",
+        "openai"
+    ],
+    "author": "tkgshn",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tkgshn/scrapbox-chatgpt-dalle-integration.git"
+    },
+    "files": [
+        "scripts/",
+        "docs/",
+        "README.md",
+        "CHANGELOG.md"
+    ],
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "browser": {
+        "fs": false,
+        "path": false
+    }
+}
